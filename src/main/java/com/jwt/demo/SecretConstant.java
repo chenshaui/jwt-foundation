@@ -1,9 +1,8 @@
 package com.jwt.demo;
 
 /**
- * @author  HJH
+ * @author  CHENSHUAI
  * @Description  : JWT使用常量值
- * @date  2019/8/2 15:27
  */
 public class SecretConstant {
 

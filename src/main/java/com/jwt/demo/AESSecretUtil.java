@@ -10,9 +10,8 @@ import javax.crypto.spec.SecretKeySpec;
 import java.security.SecureRandom;
 
 /**
- * @author : HJH
+ * @author : chenshuai
  * @Description : AES加密工具类
- * @date  2019/8/2 15:27
  */
 public class AESSecretUtil {
 

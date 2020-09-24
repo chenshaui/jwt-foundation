@@ -2,9 +2,8 @@ package com.jwt.demo;
 
 
 /**
- * @author : HJH
+ * @author : chenshuai
  * @Description : Base64转码解码工具类
- * @date : 2019/8/2 15:27
  */
 public class Base64Util {
 

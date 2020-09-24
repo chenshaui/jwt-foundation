@@ -17,7 +17,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @author  HJH
+ * @author  chenshuai
  * @Description : JWT工具类
  * <br/>参考官网：https://jwt.io/
  * <br/>实现机制参考博客：https://www.cnblogs.com/tyrion1990/p/8134384.html
@@ -25,7 +25,6 @@ import java.util.Map;
  * <br/>A-header头信息
  * <br/>B-payload 有效负荷 一般包括：已注册信息（registered claims），公开数据(public claims)，私有数据(private claims)
  * <br/>C-signature 签名信息 是将header和payload进行加密生成的
- * @date  2019/8/2 15:27
  */
 public class JwtHelper {
 
@@ -41,7 +40,6 @@ public class JwtHelper {
      * <br/>A-header头信息
      * <br/>B-payload 有效负荷
      * <br/>C-signature 签名信息 是将header和payload进行加密生成的
-     * @Data: 2018/7/28 19:26
      * @Modified By:
      */
     public static String generateJWT(String userId, String userName, String... identities) {

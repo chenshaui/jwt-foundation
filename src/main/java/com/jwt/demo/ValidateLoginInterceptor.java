@@ -1,7 +1,5 @@
 package com.jwt.demo;
 
-
-
 import com.alibaba.fastjson.JSONObject;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
@@ -12,9 +10,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * @author HJH
+ * @author CHENSHUAI
  * @Description : 校验是否登录拦截器
- * @date 2019/8/2 14:45
  */
 @Slf4j
 public class ValidateLoginInterceptor implements HandlerInterceptor {
